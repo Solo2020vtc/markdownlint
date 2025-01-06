@@ -1,3 +1,6 @@
+permissions:
+  id-token: write # This is required for requesting the JWT
+  contents: read  # This is required for actions/checkout
 # markdownlint
 
 > A Node.js style checker and lint tool for Markdown/CommonMark files.
